@@ -1,0 +1,148 @@
+html, body{
+    margin: 0;
+    line-height: 145%;
+    scroll-behavior: smooth;
+}
+
+.bg{
+    background: url(./startae-team-QEsaXprgVfQ-unsplash.jpg)no-repeat center center fixed;
+    background-size: cover;
+    min-height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.kort{
+    background-color: whitesmoke;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 40px;
+    opacity: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);  
+}
+
+h1{
+    font-family: "univia-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 140%;
+}
+
+p{
+    font-family: univia-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.eks{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+
+.cta{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 20pt;
+    text-decoration: none;
+    background: #8313eb;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    border: none;
+    transition: all 0.4s ease 0s;
+    font-family: "univia-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.cta:hover{
+    background: #434343;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+}
+
+.ghost{
+    color: #494949 !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ffffff;
+padding: 20px;
+border: 2px solid #494949 !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+display: block;
+margin: auto;
+font-family: "univia-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+cursor: pointer;
+}
+
+.ghost:hover{
+    color: #ffffff !important;
+background: #8313eb;
+border-color: #8313eb !important;
+transition: all 0.4s ease 0s;
+}
+
+.primary{
+   color: white;
+   text-transform: uppercase;
+   background: #8313eb;
+   border: 2px solid #8313eb !important;
+   padding: 20px;
+   display: inline-block;
+   display: block;
+margin: auto;
+transition: all 0.4s ease 0s;
+border-radius: 5px;
+font-family: "univia-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+cursor: pointer;
+}
+
+.primary:hover{
+    color: #8313eb;
+    transition: all 0.4s ease 0s;
+    border: 2px solid #8313eb !important;
+    background: white;
+
+}
+
+.secondary{
+    font-family: "univia-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #8313eb;
+    transition: all 0.4s ease 0s;
+    border: 2px solid #8313eb !important;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.secondary:hover{
+    color: white;
+    text-transform: uppercase;
+    background: #8313eb;
+    border: 2px solid #8313eb !important;
+    padding: 20px;
+    display: inline-block;
+    display: block;
+}
